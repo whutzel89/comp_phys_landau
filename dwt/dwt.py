@@ -13,11 +13,10 @@ Created on Thu Apr 21 21:02:09 2022
 """
 # DWT.py:  Discrete Wavelet Transform, Daubechies type
 
-from IPython.display import IFrame
 from numpy import *
 import numpy as np
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'notebook')
+
 
 sq3 = sqrt(3)
 fsq2 = 4.0*sqrt(2)
